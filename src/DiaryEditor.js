@@ -39,7 +39,7 @@ const DiaryEditor = ({onCreate}) => {
         
         console.log(state);
         onCreate(state.author,state.movie, state.contents, state.emotion);
-        alert('작성 완료');
+        alert('작성이 완료되었습니다');
         setState({
             author: "",
             movie: "",
